@@ -1,0 +1,38 @@
+[
+  { 
+    "id": 1,
+    "name": "Radio 12345",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus rutrum diam ullamcorper accumsan. Morbi a lobortis velit. Nulla at neque quis nisi porta laoreet sit amet quis nunc. Proin feugiat lorem non justo consectetur consequat. Donec ultrices blandit lectus, vel lacinia arcu dignissim et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer varius hendrerit leo a tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    "startingDialProportion": 0.03125,
+    "endingDialProportion": 0.21875,
+    "color": "green",
+    "audioFileName": "ytmp3free.cc_juanes-la-camisa-negra-audio-youtubemp3free.org.mp3"
+  },
+  { 
+    "id": 2,
+    "name": "Radio 7890",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus rutrum diam ullamcorper accumsan. Morbi a lobortis velit. Nulla at neque quis nisi porta laoreet sit amet quis nunc. Proin feugiat lorem non justo consectetur consequat. Donec ultrices blandit lectus, vel lacinia arcu dignissim et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer varius hendrerit leo a tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    "startingDialProportion": 0.28125,
+    "endingDialProportion": 0.46875,
+    "color": "red",
+    "audioFileName": "ytmp3free.cc_rihanna-umbrella-audio-youtubemp3free.org.mp3"
+  },
+  { 
+    "id": 3,
+    "name": "Otra radio",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis",
+    "startingDialProportion": 0.53125,
+    "endingDialProportion": 0.71875,
+    "color": "blue",
+    "audioFileName": "ytmp3free.cc_vamos-a-la-playa-video-edit-youtubemp3free.org.mp3"
+  },
+  { 
+    "id": 4,
+    "name": "Otra radioooooo",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis",
+    "startingDialProportion": 0.78125,
+    "endingDialProportion": 0.96875,
+    "color": "orange",
+    "audioFileName": "ytmp3free.cc_justin-bieber-yummy-lyric-video-youtubemp3free.org.mp3"
+  }
+]
