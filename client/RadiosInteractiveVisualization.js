@@ -13,26 +13,26 @@ export default class RadiosInteractiveVisualization {
     this.audioPlayer = audioPlayer;
   }
 
-  updateApplication(newDialProportion) {
-    this.visualization.updateDialNeedlePosition(newDialProportion);
-    this.updateRadios(newDialProportion)
+  updateApplication(needleCurrentDialProportion) {
+    this.visualization.updateDialNeedlePosition(needleCurrentDialProportion);
+    this.updateRadios(needleCurrentDialProportion)
   }
 
   // Private methods:
 
-  updateRadios(newDialProportion) {
+  updateRadios(needleCurrentDialProportion) {
     // Update the position of the radio cards
-    const xPositionTranslationSteps = this.softStepFunction(newDialProportion);
+    const xPositionTranslationSteps = this.softStepFunction(needleCurrentDialProportion);
     this.visualization.updateRadioCardsPositions(xPositionTranslationSteps);
 
     // Update all audios volumes
-    const { staticAudioVolume, playingRadioVolume, playingRadioIndex } = this.computeAllAudiosVolumes(newDialProportion)
+    const { staticAudioVolume, playingRadioVolume, playingRadioIndex } = this.computeAllAudiosVolumes(needleCurrentDialProportion)
     this.audioPlayer.updateStaticAudioVolume(staticAudioVolume);
     this.audioPlayer.updateRadioAudiosVolumes(playingRadioVolume, playingRadioIndex);
   }
 
-  softStepFunction(newDialProportion) {
-    const transposedNewDialProportion = newDialProportion + (this.eachStaticSpaceProportion / 2)
+  softStepFunction(needleCurrentDialProportion) {
+    const transposedNewDialProportion = needleCurrentDialProportion + (this.eachStaticSpaceProportion / 2)
     const xPositionTranslationSteps = this.transposedSoftStepFunction(transposedNewDialProportion) - 0.5
     return xPositionTranslationSteps;
   }
@@ -50,23 +50,23 @@ export default class RadiosInteractiveVisualization {
     return cycleIndex + inBetweenProportion
   }
 
-  computeAllAudiosVolumes(newDialProportion) {
-    const playingRadioIndex = this.getPlayingRadioIndex(newDialProportion);
-    const staticAudioVolume = this.getStaticAudioVolume(newDialProportion);
+  computeAllAudiosVolumes(needleCurrentDialProportion) {
+    const playingRadioIndex = this.getPlayingRadioIndex(needleCurrentDialProportion);
+    const staticAudioVolume = this.getStaticAudioVolume(needleCurrentDialProportion);
 
     const playingRadioVolume = 1 - staticAudioVolume;
 
     return { staticAudioVolume, playingRadioVolume, playingRadioIndex }
   }
 
-  getPlayingRadioIndex(newDialProportion) {
+  getPlayingRadioIndex(needleCurrentDialProportion) {
     const halfRadiosSeparationProportion = this.eachStaticSpaceProportion / 2
     let playingRadioIndex;
     let radioIndex = 0;
     for (const radio of this.radios) {
       const playingLowerBound = radio.startingDialProportion - halfRadiosSeparationProportion
       const playingUpperBound = radio.endingDialProportion + halfRadiosSeparationProportion
-      if (playingLowerBound < newDialProportion && newDialProportion < playingUpperBound) {
+      if (playingLowerBound < needleCurrentDialProportion && needleCurrentDialProportion < playingUpperBound) {
         playingRadioIndex = radioIndex;
         break
       } 
@@ -76,10 +76,10 @@ export default class RadiosInteractiveVisualization {
     return playingRadioIndex
   }
 
-  getStaticAudioVolume(newDialProportion) {
+  getStaticAudioVolume(needleCurrentDialProportion) {
     let staticAudioVolume;
     const cycleLength = this.eachStaticSpaceProportion + this.eachRadioSpaceProportion
-    const remainder = newDialProportion % cycleLength
+    const remainder = needleCurrentDialProportion % cycleLength
     const halfRadiosSeparationProportion = this.eachStaticSpaceProportion / 2
     if (0 < remainder && remainder <= halfRadiosSeparationProportion) {
       staticAudioVolume = (halfRadiosSeparationProportion - remainder) / halfRadiosSeparationProportion
