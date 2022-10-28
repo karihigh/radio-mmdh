@@ -20,7 +20,7 @@ async function main() {
       radiosProcessedData,
       eachRadioSpaceProportion,
       eachStaticSpaceProportion,
-      true, // set to `false` if wanting to hide the radios and static visual markers
+      false, // set to `false` if wanting to hide the radios and static visual markers
     );
     
     const interactiveVisualization = new RadiosInteractiveVisualization(
