@@ -1,50 +1,77 @@
 [
     {
-        "id": "1",
-        "name": "Disney",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "description": "In egestas dolor elit, vitae maximus nisi vehicula sed. Phasellus non magna viverra, suscipit metus quis, suscipit nunc. Etiam aliquam, enim eget mattis sollicitudin, ex massa laoreet arcu, eget ornare tortor lectus sit amet urna. Suspendisse potenti. Mauris vestibulum lectus in ante ultrices, in auctor elit lacinia. "
-    },
+        "description": "In egestas dolor elit, vitae maximus nisi vehicula sed. Phasellus non magna viverra, suscipit metus quis, suscipit nunc. Etiam aliquam, enim eget mattis sollicitudin, ex massa laoreet arcu, eget ornare tortor lectus sit amet urna. Suspendisse potenti. Mauris vestibulum lectus in ante ultrices, in auctor elit lacinia. ", 
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+        "id": "1", 
+        "name": "Agresión a periodistas"
+    }, 
     {
-        "id": "2",
-        "name": "Moscú",
-        "subtitle": "Cras ac scelerisque ex. Aenean varius efficitur lectus, sit amet dictum lectus. Sed quis fringilla risus.",
-        "description": "Cras augue mauris, congue in enim sagittis, tincidunt tempor neque. Fusce mi lectus, sodales in quam ac, viverra porttitor lectus. Proin rhoncus in erat vitae ultrices. Sed a nulla nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris tempor urna vitae ipsum tristique luctus."
-    },
+        "description": "Cras augue mauris, congue in enim sagittis, tincidunt tempor neque. Fusce mi lectus, sodales in quam ac, viverra porttitor lectus. Proin rhoncus in erat vitae ultrices. Sed a nulla nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris tempor urna vitae ipsum tristique luctus.", 
+        "subtitle": "Cras ac scelerisque ex. Aenean varius efficitur lectus, sit amet dictum lectus. Sed quis fringilla risus.", 
+        "id": "2", 
+        "name": "El siniestro doctor Mortis"
+    }, 
     {
-        "id": "3",
-        "name": "Francia",
-        "subtitle": "Noticiero en español conducido por Alejandro Valente",
-        "description": "Entrevista a Juan Pablo Cárdenas realizada durante el estado de sitio de 1986, que prohibe la circulación de revista Análisis. Explica que el equipo de la revista sigue trabajando en varios proyectos: en Teleanálisis, y en libros. Habla del reciente asesinato de José Carrasco, durante la primera noche de estado de sitio; y sobre su situación procesal (juicios pendientes en tribunal civil y militar); pide solidaridad internacional a Francia."
-    },
+        "description": "Etiam a justo et enim laoreet tristique. Phasellus vehicula volutpat enim sed blandit. Aenean eu metus nisi. Aenean nec sagittis ligula. Nam sed porttitor eros. Sed ullamcorper placerat gravida. Integer malesuada mi eget enim egestas ultrices a ut mauris.", 
+        "subtitle": "Noticiero en español conducido por Alejandro Valente", 
+        "id": "3", 
+        "name": "Entrevista a Domingo Marileo"
+    }, 
     {
-        "id": "4",
-        "name": "Cooperativa",
-        "subtitle": "Duis a libero scelerisque, maximus enim non, sagittis urna.",
-        "description": "Sed mattis condimentum mauris, at volutpat massa venenatis et. Quisque sit amet ante velit. Curabitur ligula nunc, tristique a eros quis, ullamcorper porttitor dolor. In sit amet mattis libero, in tempor quam. Nullam consectetur dui ut accumsan tincidunt. Pellentesque quis ornare dolor, in efficitur tortor. Donec scelerisque, quam sit amet sodales accumsan, eros augue rhoncus nisi, nec congue arcu erat et turpis. "
-    },
+        "description": "Sed mattis condimentum mauris, at volutpat massa venenatis et. Quisque sit amet ante velit. Curabitur ligula nunc, tristique a eros quis, ullamcorper porttitor dolor. In sit amet mattis libero, in tempor quam. Nullam consectetur dui ut accumsan tincidunt. Pellentesque quis ornare dolor, in efficitur tortor. Donec scelerisque, quam sit amet sodales accumsan, eros augue rhoncus nisi, nec congue arcu erat et turpis. ", 
+        "subtitle": "Duis a libero scelerisque, maximus enim non, sagittis urna.", 
+        "id": "4", 
+        "name": "Gladys Marin"
+    }, 
     {
-        "id": "5",
-        "name": "Disney 2",
-        "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-        "description": "Nulla ornare enim vitae lacus porttitor accumsan eu vitae dui. Proin laoreet dictum dui ultrices mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi a orci ex. Sed sed egestas turpis. Phasellus porttitor lorem eget odio faucibus condimentum. Curabitur tempus et dui ut pretium. "
-    },
+        "description": "Nulla ornare enim vitae lacus porttitor accumsan eu vitae dui. Proin laoreet dictum dui ultrices mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi a orci ex. Sed sed egestas turpis. Phasellus porttitor lorem eget odio faucibus condimentum. Curabitur tempus et dui ut pretium. ", 
+        "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.", 
+        "id": "5", 
+        "name": "Homenaje a Pablo Neruda"
+    }, 
     {
-        "id": "6",
-        "name": "Moscú 2",
-        "subtitle": "Praesent dapibus, ipsum in fringilla vestibulum, neque massa vehicula turpis, ut mollis nunc lorem ut lectus. In non semper diam.",
-        "description": "Donec eu orci malesuada, mattis dui quis, sagittis lectus. In feugiat magna non neque vestibulum tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eget lectus fermentum, egestas felis nec, commodo nibh."
-    },
+        "null": [
+            "Donec eu orci malesuada, mattis dui quis, sagittis lectus. In feugiat magna non neque vestibulum tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eget lectus fermentum, egestas felis nec, commodo nibh."
+        ], 
+        "description": "Praesent dapibus, ipsum in fringilla vestibulum, neque massa vehicula turpis, ut mollis nunc lorem ut lectus. In non semper diam.", 
+        "subtitle": " prohibición Serrat", 
+        "id": "6", 
+        "name": "Nuestro Canto"
+    }, 
     {
-        "id": "7",
-        "name": "Francia 2",
-        "subtitle": "Ut malesuada est et est laoreet condimentum. Praesent tempor faucibus scelerisque.",
-        "description": "Etiam a justo et enim laoreet tristique. Phasellus vehicula volutpat enim sed blandit. Aenean eu metus nisi. Aenean nec sagittis ligula. Nam sed porttitor eros. Sed ullamcorper placerat gravida. Integer malesuada mi eget enim egestas ultrices a ut mauris. "
-    },
+        "description": "Etiam a justo et enim laoreet tristique. Phasellus vehicula volutpat enim sed blandit. Aenean eu metus nisi. Aenean nec sagittis ligula. Nam sed porttitor eros. Sed ullamcorper placerat gravida. Integer malesuada mi eget enim egestas ultrices a ut mauris. ", 
+        "subtitle": "Ut malesuada est et est laoreet condimentum. Praesent tempor faucibus scelerisque.", 
+        "id": "7", 
+        "name": "Restricción de la información"
+    }, 
     {
-        "id": "8",
-        "name": "Cooperativa 2",
-        "subtitle": "Vivamus tincidunt id arcu sed pellentesque. Nulla at imperdiet dui. Vivamus maximus sapien at lacinia placerat.",
-        "description": "Aenean nec pharetra magna. Pellentesque volutpat elit sit amet dolor interdum viverra. In accumsan ornare justo eget sollicitudin. Nunc accumsan risus ante, in suscipit ante eleifend quis. "
+        "description": "Aenean nec pharetra magna. Pellentesque volutpat elit sit amet dolor interdum viverra. In accumsan ornare justo eget sollicitudin. Nunc accumsan risus ante, in suscipit ante eleifend quis. ", 
+        "subtitle": "Vivamus tincidunt id arcu sed pellentesque. Nulla at imperdiet dui. Vivamus maximus sapien at lacinia placerat.", 
+        "id": "8", 
+        "name": "Saludo CODEM"
+    }, 
+    {
+        "description": "Aenean nec pharetra magna. Pellentesque volutpat elit sit amet dolor interdum viverra. In accumsan ornare justo eget sollicitudin. Nunc accumsan risus ante, in suscipit ante eleifend quis. ", 
+        "subtitle": "Vivamus tincidunt id arcu sed pellentesque. Nulla at imperdiet dui. Vivamus maximus sapien at lacinia placerat.", 
+        "id": "9", 
+        "name": "Suspende radio por caso Anfruns"
+    }, 
+    {
+        "description": "Aenean nec pharetra magna. Pellentesque volutpat elit sit amet dolor interdum viverra. In accumsan ornare justo eget sollicitudin. Nunc accumsan risus ante, in suscipit ante eleifend quis. ", 
+        "subtitle": "Vivamus tincidunt id arcu sed pellentesque. Nulla at imperdiet dui. Vivamus maximus sapien at lacinia placerat.", 
+        "id": "10", 
+        "name": "Teatro Familiar Barrio"
+    }, 
+    {
+        "description": "Aenean nec pharetra magna. Pellentesque volutpat elit sit amet dolor interdum viverra. In accumsan ornare justo eget sollicitudin. Nunc accumsan risus ante, in suscipit ante eleifend quis. ", 
+        "subtitle": "Vivamus tincidunt id arcu sed pellentesque. Nulla at imperdiet dui. Vivamus maximus sapien at lacinia placerat.", 
+        "id": "11", 
+        "name": "Tribunal Laboral"
+    }, 
+    {
+        "description": "Aenean nec pharetra magna. Pellentesque volutpat elit sit amet dolor interdum viverra. In accumsan ornare justo eget sollicitudin. Nunc accumsan risus ante, in suscipit ante eleifend quis. ", 
+        "subtitle": "Vivamus tincidunt id arcu sed pellentesque. Nulla at imperdiet dui. Vivamus maximus sapien at lacinia placerat.", 
+        "id": "12", 
+        "name": "Voces de Dawson"
     }
 ]
